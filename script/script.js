@@ -23,7 +23,6 @@ function renderizarTarefas(){
         itemLista.onclick = function(){
             deletarTarefa(this);
         }
-
         //Criar um texto
         let itemTexto = document.createTextNode(tarefa);
 
@@ -72,9 +71,7 @@ function removerSpans(){
     for(let i = 0; i < spans.length; i++){
         card.removeChild(spans[i]);
     }
-
 }
-
 
 function deletarTarefa(tar){
     tarefas.splice(tarefas.indexOf(tar.textContent), 1);
@@ -85,13 +82,8 @@ function deletarTarefa(tar){
     salvarDadosNoStorage();
 }
 
-
-
 function salvarDadosNoStorage(){
     
     // Todo navegador web possui esta capacidade de salvar localmente    
     localStorage.setItem('tarefas', JSON.stringify(tarefas));
 }
-
-
-console.log(tarefas);
