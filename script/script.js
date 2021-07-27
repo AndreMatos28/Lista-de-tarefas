@@ -5,7 +5,7 @@ let btn = document.querySelector('#botao');
 // 3)  lista 
 let lista = document.querySelector('#lista');
  
-let tarefas = JSON.parse(localStorage.getItem('tarefas'));
+let tarefas = JSON.parse(localStorage.getItem('tarefas')) || [];
 
 function renderizarTarefas(){
     // limpar a listagem de itens antes de renderizar 
