@@ -1,6 +1,8 @@
+[![Visits Badge](https://badges.pufler.dev/visits/braydoncoyer/braydoncoyer)]()
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/andr%C3%A9-matos-8ab5451aa)
 
 
-![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/andr%C3%A9-matos-8ab5451aa)
+
 # :blue_book: Lista de tarefas
 
 ![](Assets/lista.gif)
