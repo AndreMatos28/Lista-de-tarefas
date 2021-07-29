@@ -83,7 +83,6 @@ function deletarTarefa(tar){
 }
 
 function salvarDadosNoStorage(){
-    
-    // Todo navegador web possui esta capacidade de salvar localmente    
+    //O navegador web possui tem a capacidade de salvar localmente    
     localStorage.setItem('tarefas', JSON.stringify(tarefas));
 }
